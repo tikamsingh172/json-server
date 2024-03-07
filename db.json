@@ -1,0 +1,23 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Tikam singh",
+      "email": "tikamsingh172@gmail.com",
+      "password": "tikam12345",
+      "mobile": 8077662051
+    },
+    {
+      "id": "2",
+      "name": "vishal-verma",
+      "email": "vishal-verma@gmail.com",
+      "password": "vishal-verma12345"
+    },
+    {
+      "id": "3",
+      "name": "ajay",
+      "email": "ajay@gmail.com",
+      "password": "ajay12345"
+    }
+  ]
+}
