@@ -1,15 +1,21 @@
 # ✨How to Create json-server
----
+
+## **`Quick Start`**
+
 ### Step:1
+
 Create a folder:- `db`
 
-### Step:
+### Step:2
+
 > **In this folder, you run:**
 >
 >`npm install json-server`
 
 ### Step:3
+
 Create a `db/db.json` file with data-
+
 ```json
 {
   "users": [
@@ -53,21 +59,22 @@ Create a `db/db.json` file with data-
 ```
 
 ### Step:4
-> **start json-server with default port: 3000**
->
->`npx json-server db.json`
 
-> **start json-server with custom port: 5000**
+> **start json-server with default port: 3000**
+>`npx json-server db.json`
 >
+> **start json-server with custom port: 5000**
 >`npx json-server db.json --port 5000`
 
 #### Show all options:-
+
 `npx json-server --help`
 
 ### Routes
+
 Based on the example `db.json`, you'll get the following routes:
 
-```
+```javascript
 GET    /users
 GET    /users/:id
 POST   /users
@@ -79,6 +86,7 @@ DELETE /users/:id
 ```
 
 ### Get more info:-
+
 >[https://github.com/typicode/json-server](https://github.com/typicode/json-server)
 >
 >(or)
