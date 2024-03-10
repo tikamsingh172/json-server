@@ -3,8 +3,10 @@
 ### Step:1
 Create a folder:- `db`
 
-### Step:2
-`npm install json-server`
+### Step:
+> **In this folder, you run:**
+>
+>`npm install json-server`
 
 ### Step:3
 Create a `db/db.json` file with data-
@@ -14,34 +16,36 @@ Create a `db/db.json` file with data-
     {
       "id": "1",
       "name": "Tikam singh",
-      "email": "tikamsingh172@gmail.com",
+      "email": "tikam172@gmail.com",
       "password": "tikam12345",
-      "mobile": 8077662051
+      "mobile": 8077682050
     },
     {
       "id": "2",
-      "name": "vishal-verma",
-      "email": "vishal-verma@gmail.com",
-      "password": "vishal-verma12345"
+      "name": "Vishal Verma",
+      "email": "verma@gmail.com",
+      "password":"vishal12345"
+      "mobile": 8077682050
     },
     {
       "id": "3",
-      "name": "ajay",
+      "name": "Ajay",
       "email": "ajay@gmail.com",
       "password": "ajay12345"
+      "mobile": 8077682050
     }
   ],
   "products": [
     {
      "id": "1",
-     "name": "mobile",
-     "color": "black",
-     "price": "5000 Rs/",
+     "name": "Mobile",
+     "color": "Black",
+     "price": "25000 Rs/",
     },
     {
      "id": "2",
-     "name": "laptop",
-     "color": "red",
+     "name": "Laptop",
+     "color": "Red",
      "price": "80000 Rs/",
     }
   ]
